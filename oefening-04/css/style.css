@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+div {
+  margin: 0.7rem;
+  padding: 4rem;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+  transition-duration: 0.2s;
+}
+
+.een:hover {
+  transform: translateX(-10px);
+}
+
+.twee:hover {
+  transform: translateY(-10px);
+}
+
+.drie:hover {
+  transform: translateX(10px);
+}
